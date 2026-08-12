@@ -1,0 +1,94 @@
+{
+  "n_assays": 216,
+  "n_mutants": 2465704,
+  "skipped": [
+    [
+      "NPC1_HUMAN_Erwood_2022_RPE1",
+      "NaNs or <100 mutants"
+    ]
+  ],
+  "panel": [
+    "EVmutation",
+    "DeepSequence_ensemble",
+    "EVE_ensemble",
+    "GEMME",
+    "ESCOTT",
+    "VESPA",
+    "MSA_Transformer_ensemble",
+    "PoET",
+    "TranceptEVE_L",
+    "ESM1v_ensemble",
+    "ESM2_650M",
+    "ESMC-600M",
+    "Progen2_large",
+    "RITA_l",
+    "Progen3_1b",
+    "xTrimoPGLM-3B-MLM",
+    "xTrimoPGLM-3B-CLM",
+    "xTrimoPGLM-10B-MLM",
+    "ESM-IF1",
+    "ProteinMPNN",
+    "MIFST",
+    "ProSST-2048",
+    "ProtSSN_ensemble",
+    "SaProt_650M_AF2",
+    "VenusREM",
+    "S3F_MSA",
+    "RSALOR",
+    "CARP_640M",
+    "Unirep_evotune",
+    "Wavenet"
+  ],
+  "families": {
+    "MSA_Potts": [
+      "EVmutation",
+      "DeepSequence_ensemble",
+      "EVE_ensemble"
+    ],
+    "Evo_Conservation": [
+      "GEMME",
+      "ESCOTT",
+      "VESPA"
+    ],
+    "MSA_Conditioned": [
+      "MSA_Transformer_ensemble",
+      "PoET",
+      "TranceptEVE_L"
+    ],
+    "ESM_Masked": [
+      "ESM1v_ensemble",
+      "ESM2_650M",
+      "ESMC-600M"
+    ],
+    "AR_PLM": [
+      "Progen2_large",
+      "RITA_l",
+      "Progen3_1b"
+    ],
+    "xTrimoPGLM": [
+      "xTrimoPGLM-3B-MLM",
+      "xTrimoPGLM-3B-CLM",
+      "xTrimoPGLM-10B-MLM"
+    ],
+    "Inverse_Folding": [
+      "ESM-IF1",
+      "ProteinMPNN",
+      "MIFST"
+    ],
+    "Struct_PLM": [
+      "ProSST-2048",
+      "ProtSSN_ensemble",
+      "SaProt_650M_AF2"
+    ],
+    "Struct_MSA_Hybrid": [
+      "VenusREM",
+      "S3F_MSA",
+      "RSALOR"
+    ],
+    "CNN_RNN": [
+      "CARP_640M",
+      "Unirep_evotune",
+      "Wavenet"
+    ]
+  }
+}

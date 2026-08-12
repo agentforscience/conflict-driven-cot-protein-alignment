@@ -1,0 +1,94 @@
+{
+  "R1_max_abs_position_rho": 0.4742586821015256,
+  "R2": [
+    {
+      "condition": "conflict_cot",
+      "n_assays": 216,
+      "mean_within_assay_weight_agreement": 0.7798531634225477,
+      "sd": 0.1880488696379579
+    },
+    {
+      "condition": "cot_only",
+      "n_assays": 216,
+      "mean_within_assay_weight_agreement": 0.5397365606580559,
+      "sd": 0.27736892723744405
+    },
+    {
+      "condition": "direct_only",
+      "n_assays": 216,
+      "mean_within_assay_weight_agreement": 0.4980152436206413,
+      "sd": 0.1471473215093461
+    }
+  ],
+  "R3": [
+    {
+      "model": "Qwen3-14B",
+      "condition": "conflict_cot",
+      "comparison": "seed 1 vs 2",
+      "n": 96,
+      "mean_weight_agreement": 0.8703611800180235
+    }
+  ],
+  "R4": [
+    {
+      "run": "Qwen3-14B|direct_only|s0",
+      "mean_prompt_chars": 2177.972222222222,
+      "mean_output_chars": 153.0,
+      "mean_weight_sd": 1.9396964289016938
+    },
+    {
+      "run": "Qwen3-8B|direct_only|s0",
+      "mean_prompt_chars": 2177.972222222222,
+      "mean_output_chars": 153.7037037037037,
+      "mean_weight_sd": 1.9841860157466615
+    },
+    {
+      "run": "Qwen3-14B|cot_only_shuf|s0",
+      "mean_prompt_chars": 2544.5263157894738,
+      "mean_output_chars": 153.10526315789474,
+      "mean_weight_sd": 2.027816789061399
+    },
+    {
+      "run": "Qwen3-14B|cot_only|s0",
+      "mean_prompt_chars": 2546.972222222222,
+      "mean_output_chars": 1186.1342592592594,
+      "mean_weight_sd": 2.5465252529090843
+    },
+    {
+      "run": "Qwen3-8B|cot_only|s0",
+      "mean_prompt_chars": 2546.972222222222,
+      "mean_output_chars": 713.0787037037037,
+      "mean_weight_sd": 2.4652477409834836
+    },
+    {
+      "run": "Qwen3-14B|conflict_direct|s0",
+      "mean_prompt_chars": 3732.462962962963,
+      "mean_output_chars": 153.41203703703704,
+      "mean_weight_sd": 1.697659045091056
+    },
+    {
+      "run": "Qwen3-14B|conflict_cot|s0",
+      "mean_prompt_chars": 4303.462962962963,
+      "mean_output_chars": 1270.412037037037,
+      "mean_weight_sd": 2.154984389964423
+    },
+    {
+      "run": "Qwen3-14B|conflict_cot|s1",
+      "mean_prompt_chars": 4303.462962962963,
+      "mean_output_chars": 1322.7083333333333,
+      "mean_weight_sd": 2.218641487544235
+    },
+    {
+      "run": "Qwen3-8B|conflict_cot|s0",
+      "mean_prompt_chars": 4303.462962962963,
+      "mean_output_chars": 761.3703703703703,
+      "mean_weight_sd": 2.2837106514404493
+    },
+    {
+      "run": "Qwen3-14B|conflict_cot|s2",
+      "mean_prompt_chars": 4306.666666666667,
+      "mean_output_chars": 1332.4166666666667,
+      "mean_weight_sd": 2.183664767693765
+    }
+  ]
+}

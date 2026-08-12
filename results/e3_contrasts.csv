@@ -1,0 +1,9 @@
+contrast,a,b,n,delta_rho,cohens_d,p_wilcoxon
+[Qwen3-14B] effect of SURFACING CONFLICT (compute-matched CoT control),conflict_cot|Qwen3-14B|s0,cot_only|Qwen3-14B|s0,216,0.006238530342298554,0.2109749126719259,0.005762330297329455
+[Qwen3-14B] effect of CHAIN-OF-THOUGHT (same conflict info),conflict_cot|Qwen3-14B|s0,conflict_direct|Qwen3-14B|s0,216,-0.00030623674404027594,-0.037017147901449055,0.4868448681643913
+[Qwen3-14B] effect of CoT without conflict,cot_only|Qwen3-14B|s0,direct_only|Qwen3-14B|s0,216,-0.00017501672697860856,-0.008282749151314732,0.28466041228987427
+[Qwen3-14B] LLM conflict-CoT vs non-LLM learned meta-weighting,conflict_cot|Qwen3-14B|s0,learned_meta,216,-0.031461231713303825,-0.7779172161303232,1.1611555565131578e-25
+[Qwen3-8B] effect of SURFACING CONFLICT (compute-matched CoT control),conflict_cot|Qwen3-8B|s0,cot_only|Qwen3-8B|s0,216,0.009345914905837928,0.32112935004303156,3.169566336674856e-08
+[Qwen3-8B] effect of CoT without conflict,cot_only|Qwen3-8B|s0,direct_only|Qwen3-8B|s0,216,-0.008893149253957523,-0.4131405482706338,1.0437450467492543e-10
+[Qwen3-8B] LLM conflict-CoT vs non-LLM learned meta-weighting,conflict_cot|Qwen3-8B|s0,learned_meta,216,-0.03000009294705265,-0.7788708202014089,4.893055948322924e-25
+[non-LLM] does the conflict profile add to plain dataset covariates?,learned_meta,learned_meta_noconflict,216,0.0012953881283283173,0.07286771936563462,0.5008679098025803

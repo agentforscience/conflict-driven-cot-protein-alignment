@@ -1,0 +1,13 @@
+{
+  "assay_cv_r2_EU": 0.4142187337784675,
+  "assay_cv_r2_EU_p": 0.004975124378109453,
+  "assay_cv_r2_AU": 0.3466056576419825,
+  "assay_cv_r2_AU_p": 0.004975124378109453,
+  "mutant_groupcv_r2_zEU": 0.05397373616227097,
+  "mutant_groupcv_rho_zEU": 0.21205086112903698,
+  "n_assays": 216,
+  "n_mutants": 696248,
+  "mean_rho_ens": 0.5329608251141765,
+  "mean_rho_best_single": 0.5344580347463308,
+  "mean_family_corr_offdiag": 0.7566589506107492
+}
